@@ -4,7 +4,6 @@ I ([me](https://github.com/Jean-Baptiste-Lasselle)) created this repo on top of 
 
 You will find everything about my tech discovery workshop in the [./reverse-devopsing/](/reverse-devopsing/)  folder.
  
-In the [./reverse-devopsing/documentations/images/](/reverse-devopsing/docuementations/images/)  will be nested images referenced everywhere in me markdown files.
 
 
 ### _Start of the original `README.md`_

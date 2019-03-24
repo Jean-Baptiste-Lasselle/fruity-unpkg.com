@@ -121,3 +121,33 @@ https://github.com/unpkg/unpkg.com/issues/151
 > Thank you so much in advance for any info
 > 
 
+# Next move
+
+Try : 
+
+```bash
+# 
+export URI_OF_GUESS_WHAT=https://github.com/unpkg/unpkg.com
+
+rm -rf ./fruity-unpkg.com
+mkdir -p ./fruity-unpkg.com
+git clone "$URI_OF_GUESS_WHAT" ./fruity-unpkg.com
+cd ./fruity-unpkg.com
+npm install
+# [never mind about the rollup]
+# now the babel transpilation : some ./modules   files obviously need transpilation see [https://github.com/Jean-Baptiste-Lasselle/fruity-unpkg.com/blob/ab78e4f64e98fc743f3a1419d243948c033806ac/modules/server.js#L1] 
+# just getting rid of old things in the old package.json
+npm uninstall babel
+npm install --save-dev babel-cli
+which babel
+# babel  ./modules --experimental --source-maps-inline -d ./dist
+
+# NEXT MOVE  suggested by issue https://github.com/unpkg/unpkg.com/issues/151
+npm install --save-dev @babel/plugin-syntax-dynamic-import
+npm install --save-dev @babel/plugin-syntax-import-meta
+
+# then I'll try again and babel..
+
+babel  ./modules --experimental --source-maps-inline -d ./dist
+
+```

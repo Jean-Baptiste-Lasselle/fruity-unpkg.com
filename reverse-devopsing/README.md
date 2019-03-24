@@ -104,7 +104,7 @@ So why is there not a :
 
 Got me there (Github sgested me to look at all the babel relatd issues, while I began typing.. qite a wise piece of advice, which I will foloow on the next episode) : 
 
-![[screenshot suggestion github vers exemple issue 151](https://github.com/Jean-Baptiste-Lasselle/fruity-unpkg.com/raw/master/reverse-devopsing/documentations/images/GITHUB_AVOID_OPENING_AN_ISSUE_2019-03-24%2003-01-16.png)](https://github.com/unpkg/unpkg.com/issues/151)
+[![screenshot suggestion github vers exemple issue 151](https://github.com/Jean-Baptiste-Lasselle/fruity-unpkg.com/raw/master/reverse-devopsing/documentations/images/GITHUB_AVOID_OPENING_AN_ISSUE_2019-03-24%2003-01-16.png)](https://github.com/unpkg/unpkg.com/issues/151)
 
 https://github.com/unpkg/unpkg.com/issues/151
 

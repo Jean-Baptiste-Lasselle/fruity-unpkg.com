@@ -98,4 +98,26 @@ So why is there not a :
   }
 ```
 ?
- 
+
+
+# Latest Hunt
+
+Got me there (Github sgested me to look at all the babel relatd issues, while I began typing.. qite a wise piece of advice, which I will foloow on the next episode) : 
+
+![[screenshot suggestion github vers exemple issue 151](cccc)](https://github.com/unpkg/unpkg.com/issues/151)
+
+https://github.com/unpkg/unpkg.com/issues/151
+
+### Prepared Issue Template
+
+> 
+> BABEL_BUILD_ERROR
+> 
+> Hi, I have an error, and probably a question about how to build and run thsi node app : 
+> 
+> * My problem happened trying to trnaspile using `babel-cli`
+> * you wil find full details about my error, including screenshots of logs and bug reproductibility with a recipe , here : https://github.com/Jean-Baptiste-Lasselle/fruity-unpkg.com/blob/master/reverse-devopsing/README.md#about-babel-and-unpkgcom
+> 
+> Thank you so much in advance for any info
+> 
+
